@@ -26,19 +26,19 @@ NOMADS
   <div class="container">
     <section class="section-stats row justify-content-center" id="stats">
       <div class="col-3 col-md-2 stats-detail">
-        <h2>25K</h2>
+        <h2>50K</h2>
         <p>Members</p>
       </div>
       <div class="col-3 col-md-2 stats-detail">
-        <h2>24</h2>
+        <h2>48</h2>
         <p>Countries</p>
       </div>
       <div class="col-3 col-md-2 stats-detail">
-        <h2>10K</h2>
+        <h2>20K</h2>
         <p>Hotel</p>
       </div>
       <div class="col-3 col-md-2 stats-detail">
-        <h2>100</h2>
+        <h2>200</h2>
         <p>Partners</p>
       </div>
     </section>
@@ -129,19 +129,18 @@ NOMADS
           <div class="card card-testimonial text-center">
             <div class="testiominal-content">
               <img
-                src="frontend/images/testimonial-1.png"
+                src="frontend/images/testimonial-2.png"
                 alt="User"
                 class="mb-4 rounded-circle"
               />
-              <h3 class="mb-4">Angga Risky</h3>
+              <h3 class="mb-4">Shayna</h3>
               <p class="testimonial">
-                “ It was glorious and I could not stop to say wohooo for
-                every single moment Dankeeeeee “
+                “ The trip was amazing and makes me want to learn more “
               </p>
             </div>
             <hr />
             <p class="trip-to mt-2">
-              Trip to Ubud
+              Trip to Nusa Penida
             </p>
           </div>
         </div>
@@ -149,19 +148,18 @@ NOMADS
           <div class="card card-testimonial text-center">
             <div class="testiominal-content">
               <img
-                src="frontend/images/testimonial-2.png"
+                src="frontend/images/testimonial-1.png"
                 alt="User"
                 class="mb-4 rounded-circle"
               />
-              <h3 class="mb-4">Shayna</h3>
+              <h3 class="mb-4">Catur Pamungkas</h3>
               <p class="testimonial">
-                “ The trip was amazing and I saw something beautiful in that
-                Island that makes me want to learn more “
+                “ It was unforgettable moment in my life. Work, relax, seafood and adventure.“
               </p>
             </div>
             <hr />
             <p class="trip-to mt-2">
-              Trip to Nusa Penida
+              Trip to Bali
             </p>
           </div>
         </div>

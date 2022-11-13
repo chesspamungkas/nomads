@@ -31,10 +31,9 @@
           <div class="col-12 col-lg-3">
             <h5>GET CONNECTED</h5>
             <ul class="list-unstyled">
-              <li><a href="#">Jakarta Selatan</a></li>
-              <li><a href="#">Indonesia</a></li>
-              <li><a href="#">0821 - 2222 - 8888</a></li>
-              <li><a href="#">support@nomads.id</a></li>
+              <li><a href="#">Jakarta - Indonesia</a></li>
+              <li><a href="#">+628563061982</a></li>
+              <li><a href="mailto:chesspamungkas@gmail.com">chesspamungkas@gmail.com</a></li>
             </ul>
           </div>
         </div>
@@ -46,7 +45,7 @@
       class="row border-top justify-content-center align-items-center pt-4"
     >
       <div class="col-auto text-gray-500 font-weight-light">
-        2019 Copyright Nomads • All rights reserved • Made in Jakarta
+        2022 Copyright Chess Pamungkas • All rights reserved
       </div>
     </div>
   </div>

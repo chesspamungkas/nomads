@@ -218,7 +218,7 @@
         format: 'yyyy-mm-dd',
         uiLibrary: 'bootstrap4',
         icons: {
-          rightIcon: '<img src="{{ url('frontend/images/ic_doe.png') }}" />'
+          rightIcon: '<img src="{{ url(frontend/images/ic_doe.png) }}" />'
         }
       });
     });
