@@ -37,13 +37,13 @@ deploy:
 
   - name: 📂 Sync files
     uses: SamKirkland/FTP-Deploy-Action@4.3.2
-      with:
-        server: ${{ secrets.HOST }}
-        username: ${{ secrets.USERNAME }}
-        password: ${{ secrets.PASSWORD }}
-        server-dir: ${{ secrets.SERVERDIR }}
-        script: |
-          cd /home/u6036799/public_html/travelnomads
-          git pull origin master
-          composer update --ignore-platform-reqs
-          php artisan migrate
+    with:
+      server: ${{ secrets.HOST }}
+      username: ${{ secrets.USERNAME }}
+      password: ${{ secrets.PASSWORD }}
+      server-dir: ${{ secrets.SERVERDIR }}
+      script: |
+        cd /home/u6036799/public_html/travelnomads
+        git pull origin master
+        composer update --ignore-platform-reqs
+        php artisan migrate
