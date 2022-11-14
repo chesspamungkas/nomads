@@ -27,7 +27,7 @@ jobs:
 
   web-deploy:
     needs: [tests]
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
 
     steps:
     - name: 🚚 Get latest code
