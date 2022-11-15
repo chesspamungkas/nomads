@@ -40,3 +40,11 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         server-dir: ${{ secrets.SERVERDIR }}
+        command: |
+            cd public_html/travelnomads/
+            git pull origin master
+            composer update --ignore-platform-reqs
+            artisan migrate
+            php artisan config:clear
+            php artisan view:clear
+            php artisan route:cache
