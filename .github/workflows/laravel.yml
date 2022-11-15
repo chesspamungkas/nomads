@@ -3,8 +3,6 @@ name: Laravel Nomads CI/CD
 on:
   push:
     branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
 
 jobs:
   tests:
@@ -40,8 +38,3 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         server-dir: ${{ secrets.SERVERDIR }}
-        script: |
-          cd /home/u6036799/public_html/travelnomads
-          git pull origin master
-          composer update --ignore-platform-reqs
-          php artisan migrate
